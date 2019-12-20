@@ -35,34 +35,7 @@ namespace ConsoleApp1
                 responseImpretion.Close();
                 ResponseCollection<Statistics> statistics = JsonConvert.DeserializeObject<ResponseCollection<Statistics>>(response);
 
-                foreach (var item in statistics.Items)
-                {
-                    switch (fields)
-                    {
-                        case Fields.ImpressionsCount:
-                            Console.WriteLine(item.ImpressionCount + " " + Fields.ImpressionsCount);
-                            break;
-                        case Fields.ClicksCount:
-                            Console.WriteLine(item.ClickCount + " " + Fields.ClicksCount);
-                            break;
-                        case Fields.TotalSum:
-                            Console.WriteLine(item.TotalSum + " " + Fields.TotalSum);
-                            break;
-                        case Fields.Reach:
-                            Console.WriteLine(item.Reach + " " + Fields.Reach);
-                            break;
-                        //case Fields.WinsSumWithComission:
-                        //    Console.WriteLine(item.SumWinningPrice + " " + Fields.WinsSumWithComission);
-                        //    break;
-                            /*if (Clickhouse.ImpressionsCount != item.ImpressionsCount)
-                                Console.WriteLine("Показы не совпали.")
-                            break;*/
-                            //case Fields.ViewsCount:
-                            //    Console.WriteLine();
-                            //item.ViewsCount
-                    }
-                    
-                }
+                
             }
             Console.WriteLine("END!");
             Console.ReadLine();
