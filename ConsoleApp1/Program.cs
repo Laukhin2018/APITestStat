@@ -51,9 +51,9 @@ namespace ConsoleApp1
                         case Fields.Reach:
                             Console.WriteLine(item.Reach + " " + Fields.Reach);
                             break;
-                        case Fields.WinsSumWithComission:
-                            Console.WriteLine(item.SumWinningPrice + " " + Fields.WinsSumWithComission);
-                            break;
+                        //case Fields.WinsSumWithComission:
+                        //    Console.WriteLine(item.SumWinningPrice + " " + Fields.WinsSumWithComission);
+                        //    break;
                             /*if (Clickhouse.ImpressionsCount != item.ImpressionsCount)
                                 Console.WriteLine("Показы не совпали.")
                             break;*/
