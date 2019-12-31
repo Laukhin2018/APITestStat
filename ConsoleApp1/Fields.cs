@@ -165,7 +165,7 @@ namespace ConsoleApp1
 
         SegmentsPrice = 76,*/
 
-        TotalSum = 77,
+        //TotalSum = 77,
 /*
         #region Adloox
 

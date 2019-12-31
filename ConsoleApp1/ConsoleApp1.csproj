@@ -47,6 +47,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Browser.cs" />
+    <Compile Include="ClickHouse.cs" />
     <Compile Include="ConnectionType.cs" />
     <Compile Include="DeviceType.cs" />
     <Compile Include="Gender.cs" />
@@ -55,6 +56,7 @@
     <Compile Include="Fields.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="StatConsole.cs" />
     <Compile Include="Statistics.cs" />
     <Compile Include="TrafficType.cs" />
   </ItemGroup>
